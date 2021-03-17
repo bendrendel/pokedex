@@ -18,7 +18,7 @@ h1 {
   text-align: center;
 }
 
-.container {
+#container {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
@@ -26,7 +26,6 @@ h1 {
 }
 
 .card {
-  background-color: #86b182;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
   height: 250px;
@@ -60,4 +59,65 @@ h1 {
   background-color: #bbb;
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+/* Types */
+.normal {
+  background-color: #AAAA99;
+}
+
+.fire {
+  background-color: #FF4422;
+}
+
+.water {
+  background-color: #3399FF;
+}
+
+.electric {
+  background-color: #FFCC33;
+}
+
+.grass {
+  background-color: #77CC55;
+}
+
+.ice {
+  background-color: #66CCFF;
+}
+
+.fighting {
+  background-color: #BB5544;
+}
+
+.poison {
+  background-color: #AA5599;
+}
+
+.ground {
+  background-color: #DDBB99;
+}
+
+.flying {
+  background-color: #8899FF;
+}
+
+.psychic {
+  background-color: #FF5599;
+}
+
+.bug {
+  background-color: #AABB22;
+}
+
+.rock {
+  background-color: #BBAA66;
+}
+
+.ghost {
+  background-color: #6666BB;
+}
+
+.dragon {
+  background-color: #7766EE;
 }
