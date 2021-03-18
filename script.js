@@ -37,10 +37,15 @@ function makeCard(name, number, type, artwork) {
     card.innerHTML =
     `
         <div class="halo"></div>
-        <img class="artwork" src="${artwork}" alt="${name} artwork">
-        <p class="number">${number}</p>
-        <h2 class="name">${name}</h2>
-        <p class="type">Type: ${type}</p>
+        <img class="artwork" src="${artwork}" alt="${capitalize(name)} artwork">
+        <p class="number">#${number.toString().padStart(3, '0')}</p>
+        <h2 class="name">${capitalize(name)}</h2>
+        <p class="type">Type: ${capitalize(type)}</p>
     `
     container.append(card);    
 }
+
+function capitalize(string) {
+    return string[0].toUpperCase() + string.slice(1);
+}
+
